@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Азия Market — Магазин</title>
+</div>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+     <div class="brand">Азия Market
+</div>
+      <nav class="nav">
+        <a href="#products">Товары</a>
+        <a href="#about">О нас</a>
+        <a href="kataluu.html">Регистрация</a>
+     <a href="cart.html" id="cart-btn">
+        <i class="fas fa-shopping-cart"></i> (<span id="cart-count">0</span>)
+     </a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-slider" id="hero-slider">
+        <button class="slide-nav left" id="slide-left" aria-label="предыдущий">&#10094;</button>
+        <div class="slides">
+          <div class="slide" data-index="0">
+            <img src="https://st.depositphotos.com/1063437/2890/i/450/depositphotos_28904945-stock-photo-basket-of-fresh-organic-fruits.jpg" alt="Banner 1">
+            <div class="slide-caption">
+              <h1>Свежие фрукты и продукты</h1>
+              <p>Качественные товары, быстрая доставка и удобная покупка.</p>
+            </div>
+          </div>
+          <div class="slide" data-index="1">
+            <img src="https://w0.peakpx.com/wallpaper/954/774/HD-wallpaper-fruit-bowl-apple-fruit-grapes-pear-orange-bananas-bowl.jpg" alt="Banner 2">
+            <div class="slide-caption">
+              <h1>Лучшие предложения</h1>
+              <p>Еженедельные скидки и подборки от нашей команды.</p>
+            </div>
+          </div>
+          <div class="slide" data-index="2">
+            <img src="https://streetsmartnutrition.com/wp-content/uploads/2021/06/Summer-Fruit-Salad-13.jpg" alt="Banner 3">
+            <div class="slide-caption">
+              <h1>Адаптивный дизайн</h1>
+              <p>На мобильном и десктопе — всё выглядит отлично.</p>
+            </div>
+          </div>
+        </div>
+        <button class="slide-nav right" id="slide-right" aria-label="следующий">&#10095;</button>
+        <div class="dots" id="slider-dots"></div>
+      </div>
+    </section>
+
+    <section class="features container">
+      <div class="feature">
+        <h3>Удобная оплата</h3>
+        <p>Имитация оплаты — просто нажми "Оформить".</p>
+      </div>
+      <div class="feature">
+        <h3>Доставка</h3>
+        <p>Быстрая обработка заказов и удобная упаковка.</p>
+      </div>
+      <div class="feature">
+        <h3>Поддержка</h3>
+        <p>Пиши нам — поможем выбрать товар.</p>
+      </div>
+    </section>
+
+    <section id="products" class="products container">
+      <h2>Популярные товары</h2>
+      <div class="products-grid" id="products-grid">
+        <div class="card">
+          <img src="https://st4.depositphotos.com/9913494/19656/i/450/depositphotos_196560564-stock-photo-tropical-fruit-mix-blue-background.jpg" alt="Фрукты">
+          <h4>Фруктовая корзина</h4>
+          <p class="price">1200 сом</p>
+          <div class="actions">
+            <button class="btn primary">В корзину</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://w0.peakpx.com/wallpaper/954/774/HD-wallpaper-fruit-bowl-apple-fruit-grapes-pear-orange-bananas-bowl.jpg" alt="Фрукты">
+          <h4>Свежие яблоки</h4>
+          <p class="price">500 сом</p>
+          <div class="actions">
+            <button class="btn primary">В корзину</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://previews.123rf.com/images/pixander/pixander2305/pixander230550294/205105619-fresh-summer-berries-background-top-view-flat-lay-close-up.jpg" alt="Ягоды">
+          <h4>Ягодная смесь</h4>
+          <p class="price">800 сом</p>
+          <div class="actions">
+            <button class="btn primary">В корзину</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about container">
+      <h2>О магазине</h2>
+      <p>Азия Market — специализированный магазин свежих фруктов, овощей и других продуктов.  
+Мы предлагаем сертифицированную продукцию, прозрачные условия обслуживания и индивидуальный подход к каждому клиенту.  
+Наша цель — обеспечить надёжность, качество и долгосрочное сотрудничество.</p>
+    </section>
+  </main><button class="slide-nav left" id="slide-left">&#10094;</button>
+<button class="slide-nav right" id="slide-right">&#10095;</button>
+<div class="dots" id="slider-dots"></div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Азия Market — учебный проект.</p>
+    </div>
+  </footer>
+
+  <script src="Азия.js"></script>
+</body>
+</html>
